@@ -1,4 +1,28 @@
+  #include <iostream>
+  #include <conio.h>
+  #include <vector>
+  #include <time.h>
+  #include <string>
+  #include <fstream>
 
+  #include <iomanip>
+
+
+  #define xStart 10
+  #define yStart 11
+
+  #define keyUp 72
+  #define keyDown 80
+  #define keyLeft 75
+  #define keyRight 77
+  #define keyEnter 13
+  #define keyEsc 27
+
+  #define STATUS_NOT_COMPLETED 0
+  #define STATUS_IN_PROGRESS 1
+  #define STATUS_COMPLETED 2
+  #define STATUS_CANCELED 3
+  #define STATUS_OVERDUE 4
 void detailsPage(string &page, int &slug, TaskList& list) {
   DrawLogo();
   GoTo(xStart, yStart - 3);

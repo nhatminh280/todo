@@ -1,4 +1,6 @@
-
+  #include <iostream>
+  #include <windows.h>
+  #include <fstream>
 void ShowCur(bool CursorVisibility) {
   CONSOLE_CURSOR_INFO ConCurInf = {10, CursorVisibility};
   SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &ConCurInf);

@@ -1,5 +1,27 @@
-#include "header.h"
+  #include <iostream>
+  #include <windows.h>
+  #include <conio.h>
+  #include <fstream>
 
+
+
+  using namespace std;
+
+  // // Classes
+  #include "classes/Date.cpp"
+  #include "classes/Task.cpp"
+
+  // Functions
+  #include "utils/display.cpp"
+  #include "utils/data.cpp"
+  #include "utils/validator.cpp"
+
+  // Interfaces
+  #include "pages/details.cpp"
+  #include "pages/statistics.cpp"
+  #include "pages/form.cpp"
+  #include "pages/list.cpp"
+  #include "pages/menu.cpp"
 int main() {
   TaskList list;
 

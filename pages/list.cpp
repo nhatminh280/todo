@@ -1,4 +1,8 @@
-
+#include<iostream>
+#include<iomanip>
+#include<vector>
+#include<conio.h>
+#include<fstream>
 void listPage(string &page, int &slug, TaskList &list) {
   DrawLogo();
   GoTo(xStart, yStart - 3);

@@ -1,4 +1,9 @@
-
+#include<iostream>
+#include<string>
+#include<vector>
+#include<iomanip>
+#include<time.h>
+#include<fstream>
 void formPage(string &page, int &slug, TaskList &list) {
   vector <string> options = {"TITLE", "DEADLINE", "NOTE", "SUBMIT"};
   int option = 0;

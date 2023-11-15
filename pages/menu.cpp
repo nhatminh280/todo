@@ -1,3 +1,16 @@
+    #include <string>
+    #include<iostream>
+    #include<vector>
+    #include<conio.h>
+    #define xStart 10
+  #define yStart 11
+
+  #define keyUp 72
+  #define keyDown 80
+  #define keyLeft 75
+  #define keyRight 77
+  #define keyEnter 13
+  #define keyEsc 27
 
 void menuPage(string &page, TaskList &list) {
   DrawLogo();

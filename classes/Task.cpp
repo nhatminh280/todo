@@ -1,3 +1,21 @@
+  #include <iostream>
+  #include <vector>
+  #include <string>
+  #include <fstream>
+  #include<algorithm>
+
+ 
+  #define PRIORITY_IN_DAY 0
+  #define PRIORITY_IN_THREE_DAYS 1
+  #define PRIORITY_IN_WEEK 2
+  #define PRIORITY_IN_TWO_WEEKS 3
+  #define PRIORITY_IN_MONTH 4
+
+  #define STATUS_NOT_COMPLETED 0
+  #define STATUS_IN_PROGRESS 1
+  #define STATUS_COMPLETED 2
+  #define STATUS_CANCELED 3
+  #define STATUS_OVERDUE 4
 
 class Task {
   private:

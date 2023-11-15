@@ -1,3 +1,7 @@
+
+  #include <iostream>
+  #include <string>
+  
 bool validateTitle(string title) {
   if (title.size() > 100) {
     cout << "Title length must be under 100 character !!!" << endl;
